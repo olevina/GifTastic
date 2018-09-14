@@ -1,0 +1,23 @@
+.mymargins {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(236, 61, 90);
+}
+
+.myheader {
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, rgb(255, 45, 115) 0%, #fdf738 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+}
+@media screen and (max-width: 600px) {
+    .myheader {
+      font-size: 60px;
+    }
+  }
